@@ -46,7 +46,7 @@ class User extends Authenticatable
 
     public function admin()
     {
-        return $this->hasOne(Admin::class);
+        return $this->hasOne(TblAdmin::class);
     }
     public function jobSeeker()
     {

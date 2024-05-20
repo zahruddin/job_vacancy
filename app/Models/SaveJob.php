@@ -18,7 +18,7 @@ class SaveJob extends Model
      */
     public function jobSeeker()
     {
-        return $this->belongsTo(JobSeeker::class, 'tbl_job_seeker_id');
+        return $this->belongsTo(TblJobSeeker::class, 'tbl_job_seeker_id');
     }
 
     /**
